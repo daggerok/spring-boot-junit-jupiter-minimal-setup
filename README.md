@@ -37,7 +37,7 @@ _pom.xml_
 </project>
 ```
 
-_src/test/java/../ApplicationUnderTest.java_
+_MyTest.java_
 
 ```java
 @TestConfiguration
