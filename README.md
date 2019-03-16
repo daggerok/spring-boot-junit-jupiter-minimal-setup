@@ -56,7 +56,7 @@ class ApplicationUnderTest {
 
 @SpringBootTest
 @ExtendWith(SpringExtension.class)
-class SpringBootMinimalTests {
+class MyTest {
 
   @Autowired
   String aString;
