@@ -33,12 +33,12 @@ class MyTestSpringBootApp {
 @ExtendWith(SpringExtension.class)
 class SpringBootMinimalTests {
 
+  final String myString;
+
   @Autowired
   SpringBootMinimalTests(String myString) {
     this.myString = myString;
   }
-
-  final String myString;
 
   @Test
   void test() {
