@@ -49,7 +49,7 @@ class ApplicationUnderTest {
     return "Hello!";
   }
 
-  public static void main(String[] args) {                    // main method is optional...
+  public static void main(String[] args) { // <-- main method is optional...
     SpringApplication.run(ApplicationUnderTest.class, args);
   }
 }
